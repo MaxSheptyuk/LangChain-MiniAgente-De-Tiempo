@@ -42,7 +42,7 @@ load_dotenv("dev.env")
 
 # Cargamos el CSV de ciudades una sola vez al inicio.
 # Si el CSV no está en el mismo directorio, toca ajustar la ruta.
-df_cities = pd.read_csv("worldcities.csv", sep=",")
+df_cities = pd.read_csv("Data/worldcities.csv", sep=",")
 
 
 # ==============================
