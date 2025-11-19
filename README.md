@@ -57,10 +57,9 @@ La idea es sencilla:
 
 ```text
 LangChain-MiniAgente-De-Tiempo/
-├─ src/
-│  └─ weather_agent.py      # Script principal del agente
+├─ WeatherLangChainTest.py      # Script principal del agente
 ├─ data/
-│  └─ worldcities.csv       # CSV con ciudades y coordenadas
-├─ dev.env.example          # Plantilla de variables de entorno (sin secretos)
-├─ requirements.txt         # Dependencias del proyecto
+│  └─ worldcities.csv           # CSV con ciudades y coordenadas
+├─ dev.env                      # Variables de entorno (sin secretos)
+├─ requirements.txt             # Dependencias del proyecto
 └─ README.md
